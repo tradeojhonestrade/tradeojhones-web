@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tradeojhones Trading</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#050505;
+color:white;
+overflow-x:hidden;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:60px 20px;
+background:
+radial-gradient(circle at top, rgba(255,255,255,0.08), transparent 40%),
+linear-gradient(to bottom,#050505,#0b0b0b);
+}
+
+.logo{
+width:220px;
+margin-bottom:30px;
+border-radius:20px;
+box-shadow:0 0 40px rgba(255,255,255,0.08);
+}
+
+h1{
+font-size:4rem;
+font-weight:800;
+letter-spacing:-2px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.2rem;
+max-width:700px;
+margin:auto;
+line-height:1.7;
+color:#cfcfcf;
+}
+
+.buttons{
+margin-top:40px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:18px 34px;
+border-radius:14px;
+text-decoration:none;
+font-weight:700;
+transition:0.3s ease;
+}
+
+.primary{
+background:white;
+color:black;
+}
+
+.primary:hover{
+transform:translateY(-3px);
+}
+
+.secondary{
+border:1px solid rgba(255,255,255,0.2);
+color:white;
+}
+
+.section{
+padding:100px 0;
+}
+
+.section-title{
+font-size:2.5rem;
+margin-bottom:20px;
+text-align:center;
+}
+
+.section-sub{
+text-align:center;
+max-width:700px;
+margin:0 auto 60px;
+color:#bdbdbd;
+line-height:1.7;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+}
+
+.card{
+background:#101010;
+padding:30px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.06);
+transition:0.3s ease;
+}
+
+.card:hover{
+transform:translateY(-5px);
+border-color:rgba(255,255,255,0.15);
+}
+
+.card h3{
+margin-bottom:15px;
+font-size:1.3rem;
+}
+
+.card p{
+color:#bdbdbd;
+line-height:1.6;
+}
+
+.testimonials{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.testimonials img{
+width:100%;
+border-radius:18px;
+border:1px solid rgba(255,255,255,0.08);
+}
+
+.pricing{
+max-width:500px;
+margin:auto;
+background:#101010;
+padding:50px;
+border-radius:25px;
+text-align:center;
+border:1px solid rgba(255,255,255,0.08);
+}
+
+.price{
+font-size:4rem;
+font-weight:800;
+margin:20px 0;
+}
+
+.pricing ul{
+list-style:none;
+margin:30px 0;
+}
+
+.pricing li{
+margin:15px 0;
+color:#cfcfcf;
+}
+
+footer{
+padding:50px 20px;
+text-align:center;
+border-top:1px solid rgba(255,255,255,0.08);
+color:#888;
+margin-top:80px;
+}
+
+@media(max-width:768px){
+h1{
+font-size:2.5rem;
+}
+
+.hero p{
+font-size:1rem;
+}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div class="container">
+<img src="logo.jpeg" class="logo" alt="Tradeojhones Logo">
+<h1>TRADEOJHONES</h1>
+
+<p>
+Análisis bursátil del mercado americano para inversores que quieren operar con criterio.
+Recibe análisis técnicos, fundamentales y oportunidades directamente en Telegram.
+</p>
+
+<div class="buttons">
+<a class="btn primary" href="https://t.me/Tradeojhonespremiumtradebot" target="_blank">
+Acceder a la Membresía
+</a>
+
+<a class="btn secondary" href="#testimonios">
+Ver Testimonios
+</a>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2 class="section-title">¿Qué incluye la membresía?</h2>
+
+<p class="section-sub">
+Una comunidad privada enfocada en análisis reales del mercado americano, con contexto,
+seguimiento y aprendizaje continuo.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>📊 Análisis Técnicos</h3>
+<p>
+Entradas, soportes, resistencias y posibles escenarios del mercado.
+</p>
+</div>
+
+<div class="card">
+<h3>🏛️ Análisis Fundamentales</h3>
+<p>
+Empresas con potencial y contexto macroeconómico explicado de forma clara.
+</p>
+</div>
+
+<div class="card">
+<h3>🔔 Alertas en Telegram</h3>
+<p>
+Información rápida y directa para no perder oportunidades importantes.
+</p>
+</div>
+
+<div class="card">
+<h3>🧠 Aprendizaje Real</h3>
+<p>
+Entiende por qué se toman decisiones y mejora tu visión del mercado.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="section" id="testimonios">
+<div class="container">
+<h2 class="section-title">Lo que dice la comunidad</h2>
+
+<p class="section-sub">
+La confianza se construye con transparencia, resultados y acompañamiento real.
+</p>
+
+<div class="testimonials">
+<img src="testimonio1.jpeg">
+<img src="testimonio2.jpeg">
+<img src="testimonio3.jpeg">
+<img src="testimonio4.jpeg">
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<div class="pricing">
+<h2>Tradeojhones Premium</h2>
+
+<div class="price">10€</div>
+
+<p>Acceso mensual a la comunidad privada.</p>
+
+<ul>
+<li>✔ Telegram privado</li>
+<li>✔ Oportunidades de mercado</li>
+<li>✔ Análisis técnico y fundamental</li>
+<li>✔ Comunidad activa</li>
+<li>✔ Acceso inmediato</li>
+</ul>
+
+<a class="btn primary" href="https://t.me/Tradeojhonespremiumtradebot" target="_blank">
+Entrar Ahora
+</a>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>TRADEOJHONES © 2025</p>
+<p style="margin-top:10px;">
+La información publicada no constituye asesoramiento financiero.
+</p>
+</footer>
+
+</body>
+</html>
